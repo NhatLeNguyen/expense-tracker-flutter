@@ -79,7 +79,7 @@ class _Expenses extends State<Expenses> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Flutter Expense Widget'),
+        title: const Text('Flutter Expense Tracker'),
         actions: [
           IconButton(
             onPressed: _openAddExpenseOverlay,
@@ -89,7 +89,7 @@ class _Expenses extends State<Expenses> {
           )
         ],
       ),
-      body: width < 600
+      body: width < 600 // responsive
           ? Column(
               children: [
                 Chart(expenses: _registerExpenses),
