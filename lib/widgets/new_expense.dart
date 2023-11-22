@@ -1,5 +1,5 @@
-import 'package:expense_tracker/models/expense.dart';
 import 'package:flutter/material.dart';
+import 'package:meals/models/expense.dart';
 
 // ignore: must_be_immutable
 class NewExpense extends StatefulWidget {
